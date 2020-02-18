@@ -16,7 +16,6 @@ The script provides two methods of parsing tabels.
 
 You can specify the method want to use in 'pdf_to_table.py'
 
-<br><br>
 The parsed tables can also be saved in the 'results' folder, using 'save_tables' function in 'pdf_to_table.py'
 
 ### Notes:
@@ -26,8 +25,9 @@ Different algorithms of detecting table areas are provided at:
 * 'object_detection' repo
 * 'img_table_detector' repo
 You can use above algorithms to detect table boundaries. 
-<br><br>
+
 If you already have table boundaries, you can specify the 'bbox' parameter in the 'pdf_to_table.py'. 
+
 The format is:
 * bbox = {'page_num': [[x1, y1, x2, y2]...]'} (e.g. bbox = {'0': [[100, 100, 600, 400]]})
 
